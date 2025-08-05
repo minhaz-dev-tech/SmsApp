@@ -1,0 +1,30 @@
+Categories:
+  - Communication
+License: Apache-2.0
+AuthorName: Minhaz
+AuthorEmail: minhaz@example.com
+WebSite: https://minhaz-dev-tech.github.io/SmsApp
+SourceCode: https://github.com/minhaz-dev-tech/SmsApp
+IssueTracker: https://github.com/minhaz-dev-tech/SmsApp/issues
+
+AutoName: SmsFoword
+Description: |
+    This app forwards SMS messages to a specified email address.
+
+    Features:
+    * Forward SMS to email
+    * Simple and easy to use
+
+RepoType: git
+Repo: https://github.com/minhaz-dev-tech/SmsApp.git
+
+Builds:
+  - versionName: '1.0'
+    versionCode: 1
+    commit: HEAD
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
