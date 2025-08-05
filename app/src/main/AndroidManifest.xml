@@ -35,17 +35,7 @@
             </intent-filter>
         </receiver>
 
-        <!-- Optional: MMS receiver (requires default SMS app status) -->
-        <receiver android:name=".MmsReceiver" android:exported="true">
-            <intent-filter>
-                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
-                <data android:mimeType="application/vnd.wap.mms-message" />
-            </intent-filter>
-        </receiver>
-
-        <!-- SMS sent and delivery status receivers -->
-        <receiver android:name=".SmsSentReceiver" android:exported="false" />
-        <receiver android:name=".SmsDeliveredReceiver" android:exported="false" />
+        
 
         <!-- FileProvider (if sharing files) -->
         <provider
