@@ -1,0 +1,5 @@
+This app forwards SMS messages to a specified email address.
+
+  Features:
+  * Forward SMS to email
+  * Simple and easy to use
